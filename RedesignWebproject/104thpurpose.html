@@ -62,34 +62,45 @@
         </div>
         <div class="col"><img src="Webproject-Images/104thlogo.jpg"></div>
         <div class="col">
-                <div class="thumbnail">
-                    <a href="Webproject-Images/104thWolfPack2.jpg">
-                        <img src="Webproject-Images/104thWolfPack2.jpg" alt="BattlefrontClones" style="width:100px">
-                        <div class="caption">
-                            <p>104th Battlefront</p>
-                        </div>
-                    </a>
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
                 </div>
-            </div>
-            <div class="col">
-                <div class="thumbnail">
-                    <a href="Webproject-Images/104thWolfPack4.png">
-                        <img src="Webproject-Images/104thWolfPack4.png" alt="ClonesDismounted" style="width:100px; height:60px">
-                        <div class="caption">
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Webproject-Images/104thWolfPack2.jpg" alt="104th In Battlefront 2" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <p>104th In Battlefront 2</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Webproject-Images/104thWolfPack3.jpg" alt="104th Fighting with Plo Koon" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <p>104th Fighting alongside Plo Koon</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Webproject-Images/104thWolfPack4.png" alt="104th Dismounting LAAT" class="d-block w-100">
+                        <div class="carousel-caption">
                             <p>104th Dismounting LAAT</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="thumbnail">
-                    <a href="Webproject-Images/104thWolfPack3.jpg">
-                        <img src="Webproject-Images/104thWolfPack3.jpg" alt="ClonesPlokoon" style="width:100px">
-                        <div class="caption">
-                            <p>104th Fighting With Plo Koon</p>
-                        </div>
-                    </a>
-                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
     </div>
     <div class="row">
