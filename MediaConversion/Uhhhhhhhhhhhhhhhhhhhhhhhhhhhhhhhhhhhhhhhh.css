@@ -1,0 +1,23 @@
+.GodIsDead{
+
+    z-index: -1;
+    float: top;
+}
+.GodIsDeadText{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.IHaveNoClue{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.col-sm-12{
+    position: relative;
+}
+.Iwillnotusethatthen{
+    border-radius: 100%;
+}
